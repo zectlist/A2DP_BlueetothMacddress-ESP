@@ -1,4 +1,4 @@
-# A2DP_BlueetothMacddress-ESP
+# ESP32 Bluetooth Audio Streaming
 ESP32 Bluetooth Audio Streaming
 
 Overview
