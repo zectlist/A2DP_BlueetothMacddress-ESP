@@ -59,15 +59,10 @@ Reconnect: Rescan and connect if needed.
 Code Structure
 
 main.ino: Handles setup, initialization, and main loop.
-
 bluetooth.ino: Manages Bluetooth scanning, pairing, and connection.
-
 audio.ino: Handles SD card reading and audio streaming.
-
 storage.ino: Saves and retrieves MAC addresses from EEPROM.
-
 Debugging & Troubleshooting
-
 Common Issues & Solutions
 
 Issue
@@ -79,23 +74,18 @@ Solution
 ESP32 not detecting TWS
 
 Bluetooth scanning issue
-
 Restart the ESP32 and ensure the TWS device is in pairing mode
 
 Audio playback stutters
-
 Weak Bluetooth signal
 
 Reduce interference, keep ESP32 close to the TWS device
-
 MAC address not saving
 
 EEPROM write failure
-
 Check EEPROM write logic and increase write delay if necessary
 
 SD card not detected
-
 Incorrect wiring or format
 
 Ensure proper wiring and format SD card to FAT32
@@ -107,8 +97,6 @@ This project is open-source under the MIT License.
 Acknowledgments
 
 Special thanks to the ESP32-A2DP library developers for enabling Bluetooth audio streaming on ESP32.
-
 Contributions & Feedback
-
 Feel free to open an issue or submit a pull request if you find bugs or have improvements to suggest!
 
