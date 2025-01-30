@@ -17,9 +17,13 @@ EEPROM storage: Saves the target MAC address to avoid repetitive scanning.
 Hardware Requirements
 
 ESP32 development board
+
 MicroSD card module (for audio storage)
+
 TWS Bluetooth speaker/headphones
+
 Power supply (USB or battery)
+
 Software Requirements
 
 Library
